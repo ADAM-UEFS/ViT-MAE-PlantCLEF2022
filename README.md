@@ -77,7 +77,7 @@ For our experiments we used the pytorch Version: 2.0.1+cu118 which, as pointed b
 
 | Model                                  |     Checkpoints                       |
 | :----------------------------:         |                  :------:             |
-| `ViT-L 100 epochs - Trusted Data Only` |       [Reference]()                   |
+| `ViT-L 100 epochs - Trusted Data Only` |       [Reference](https://drive.google.com/file/d/1RS-Blft9dMQlZO4Zib5aYorwNevB2398/view?usp=drive_link)                   |
 | `ViT-L 100 epochs - Trusted + Web `    |       [Reference](https://drive.google.com/file/d/10d12_YemsmYlSuelVBYtJFBqgLOPAglr/view?usp=drive_link)                   |
 
 ## Scripts
