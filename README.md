@@ -97,7 +97,7 @@ As one may choose to use an older pytorch version, here's a list of possible err
 - [Objetivos](#objetivos)
 - [Experimentos](#experimentos)
 - [Reutilizando os scripts](#instruções-para-reutilização)
-- [References](#referências)
+- [Referências](#referências)
 
 # Sobre
 A grande maioria dos modelos desenvolvidos para realizar tarefas de classificação - especialmente aquelas que envolveram reconhecimento de plantas - contaram com a realização de transfer learning (TL) a partir de conjuntos de dados de propósito geral de larga escala tal qual ImageNet para alcançar o inquestionável progresso atingido nos últimos anos. A realização de transferência de conhecimento a partir do ImageNet tem se tornado uma abordagem padrão não apenas para classificação de plantas mas também para diversos domínios, especialmente quando os dados do domínio alvo são limitados ou quando os recursos computacionais são escassos. Apesar disso, essa abordagem levanta algumas preocupações, consideranddo que para muitos domínios as diferenças entre as características das imagens são significantes [Matsoukas et al. 2022] e, de modo geral, conjuntos de dados estão se tornando cada vez maiores.    
