@@ -179,7 +179,7 @@ Em caso de optar por utilizar versões alternativas do pytorch aqui vai uma list
 - torch._six module [issue](https://github.com/microsoft/DeepSpeed/issues/2845).
   - Parece que o módulo torch._six está obsoleto e, portanto, removido nas versões mais recentes, portanto, se optar por usar uma versão mais antiga, poderá enfrentar alguns problemas com isso (importar a versão anterior deve ser suficiente).  
 - CUDA:
-  - Nas versões mais antigas do pytorch, o lançamento de aplicativos distribuídos era feito através do módulo "torch.distributed.run" (se não me engano), portanto para usar versões mais antigas é necessário adaptar os scripts de shell para isso.
+  - Nas versões mais antigas do pytorch, o lançamento de aplicativos distribuídos era feito através do módulo "torch.distributed.run" (se não me engano), portanto para usar versões mais antigas é necessário adaptar os shell scripts para isso.
 
 # Referências
 Matsoukas, C., Haslum, J. F., Sorkhei, M., Söderberg, M., & Smith, K. (2022). What makes transfer learning work for medical images: Feature reuse & other factors. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (pp. 9225-9234).
