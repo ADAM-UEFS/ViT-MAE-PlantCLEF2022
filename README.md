@@ -7,7 +7,7 @@
 - [Experiments](#experiments)
 - [Reusing the scripts](#instructions-for-reutilization)
 - [References](#referências)
-- [🇧🇷 Ver em Português 🇧🇷](#índice)
+- [🇧🇷 Ver em Português 🇧🇷](https://github.com/rtcalumby/plantTL2023/blob/main/README.md#-planttl2023-)
 
 # About
 The vast majority of models developed to address classification tasks — specifically the ones that involves plant recognition — relied in transfer learning (TL) from large-scale general purpose datasets, such as ImageNet to accomplish the undoubtful progress of the latest years. Transferring knowledge from ImageNet has become a standard approach not only for plant classification but for many domains, specially when data from the target (downstream task) domain is limited or when computational resources are insufficient. Nonetheless, this approach raises concerns, as for many domains the differences in image characteristics between tasks are significant [Matsoukas et al. 2022] and, in a general way, datasets are getting increasingly larger.
