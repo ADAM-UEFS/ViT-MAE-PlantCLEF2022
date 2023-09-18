@@ -1,18 +1,18 @@
 # PlantCLEF22-23
 > Image-based plant identification at global scale
 
+🇺🇸[See in English](#references)
+
+
 To-do:
 - [ ] Add an index with references to each section.
-- [ ] Provide information (links and text) about the transfer learning experiments datasets.
 - [ ] Add portuguese/english distinction sections.
-- [ ] Add the literature references.
-- [x] Add other contributors.
 - [ ] Add cnpq granting info.
 
-## About
-The vast majority of models developed to address classification tasks — specifically the ones that involves plant recognition — relied in transfer learning (TL) from large-scale general purpose datasets, such as ImageNet [Russakovsky et al. 2015], to accomplish the undoubtful progress of the latest years. Transferring knowledge from ImageNet has become a standard approach not only for plant classification but for many domains, specially when data from the target (downstream task) domain is limited or when computational resources are insufficient. Nonetheless, this approach raises concerns, as for many domains the differences in image characteristics between tasks are significant [Matsoukas et al. 2022] and, in a general way, datasets are getting increasingly larger.
+# About
+The vast majority of models developed to address classification tasks — specifically the ones that involves plant recognition — relied in transfer learning (TL) from large-scale general purpose datasets, such as ImageNet to accomplish the undoubtful progress of the latest years. Transferring knowledge from ImageNet has become a standard approach not only for plant classification but for many domains, specially when data from the target (downstream task) domain is limited or when computational resources are insufficient. Nonetheless, this approach raises concerns, as for many domains the differences in image characteristics between tasks are significant [Matsoukas et al. 2022] and, in a general way, datasets are getting increasingly larger.
 
-Even though data scarcity still the primary reason why so many studies involving plants have strongly relied on ImageNet TL so far, data acquisition initiatives have been constantly working towards providing global access to datasets that consistently increases in number of species and specimens. In the latest years, the PlantCLEF challenge have been releasing plant species identification datasets of similar proportions to benchmark datasets such as ImageNet [Go ̈eau et al. 2022]. In this sense, concerns regarding the extent to which ImageNet TL will still be necessary in the upcoming years are raised, as datasets such as the ones provided by PlantCLEF will certainly be able to provide the TL baseline models for plant recognition and related tasks [Xu et al. 2022]. Consequently, a diversity of previously unfeasible applications because merely TL from ImageNet wasn’t enough now will certainly be facilitated.
+Even though data scarcity still the primary reason why so many studies involving plants have strongly relied on ImageNet TL so far, data acquisition initiatives have been constantly working towards providing global access to datasets that consistently increases in number of species and specimens. In the latest years, the PlantCLEF challenge have been releasing plant species identification datasets of similar proportions to benchmark datasets such as ImageNet. In this sense, concerns regarding the extent to which ImageNet TL will still be necessary in the upcoming years are raised, as datasets such as the ones provided by PlantCLEF will certainly be able to provide the TL baseline models for plant recognition and related tasks [Xu et al. 2022]. Consequently, a diversity of previously unfeasible applications because merely TL from ImageNet wasn’t enough now will certainly be facilitated.
 
 ### Goal
 Considering the depicted scenario, in this project we investigate the role that transferring knowledge from a large scale plant species recognition dataset plays when fine-tuning models into plant related domains with different levels of complexity. In that sense, our experiments enabled carrying out a comparison between **fine-tuning ViT-MAE transformers into the proposed datasets from previous training on the PlantCLEF2022 (PC2022) dataset**, in relation to fine-tuning directly from ImageNet. Besides that, we share not only the code to reproduce the experiments but model weights and some instructions on how to adapt or retrain the provided models. 
@@ -91,7 +91,9 @@ As one may choose to use an older pytorch version, here's a list of possible err
 - CUDA:
   - In older pytorch versions, distributed applications launching was done through "torch.distributed.run" module (if I'm not mistaken) therefore in order to use older versions, one must adapt the shell scripts for that. 
 
-## References
+# References
+Matsoukas, C., Haslum, J. F., Sorkhei, M., Söderberg, M., & Smith, K. (2022). What makes transfer learning work for medical images: Feature reuse & other factors. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (pp. 9225-9234).
+Xu, M., Yoon, S., Jeong, Y., Lee, J., & Park, D. S. (2022). Transfer learning with self-supervised vision transformer for large-scale plant identification. In International conference of the cross-language evaluation forum for European languages (Springer;) (pp. 2253-2261).
 
 It important to notice that our experiments have strongly relied on [Mingle Xu's work](https://github.com/xml94/PlantCLEF2022) and that without it we would have to painfully spend a lot of extra time preparing submission evaluation and experiment running scripts. Moreover, as previously mentioned we have extended the work of [Xu et al. 2022] by training not only with the trusted portion of the dataset but with the untrusted, which allowed to significantly improve their results. We also conducted a few transfer learning experiments on related (downstream) datasets.
 
