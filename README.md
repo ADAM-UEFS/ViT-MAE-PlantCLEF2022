@@ -96,7 +96,7 @@ As one may choose to use an older pytorch version, here's a list of possible err
 - [Descrição do projeto](#sobre)
 - [Objetivos](#objetivos)
 - [Experimentos](#experimentos)
-- [Reusing the scripts](#instruções-para-reutilização)
+- [Reutilizando os scripts](#instruções-para-reutilização)
 - [References](#referências)
 
 # Sobre
