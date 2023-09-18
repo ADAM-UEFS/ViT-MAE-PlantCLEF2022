@@ -89,6 +89,9 @@ As one may choose to use an older pytorch version, here's a list of possible err
 - CUDA:
   - In older pytorch versions, distributed applications launching was done through "torch.distributed.run" module (if I'm not mistaken) therefore in order to use older versions, one must adapt the shell scripts for that. 
 
+### Support
+This work was partially supported by the National Council for Scientific and Technological Development (CNPq grant no. 158600/2022-3). Moreover it is important to notice that our experiments have strongly relied on Mingle Xu's work and that without it we would have to painfully spend a lot of extra time preparing submission evaluation and experiment running scripts.
+
 # 🇧🇷 PlantTL2023 🇧🇷
 > Identificação de plantas em larga escala baseada em imagens
 
@@ -180,6 +183,9 @@ Em caso de optar por utilizar versões alternativas do pytorch aqui vai uma list
   - Parece que o módulo torch._six está obsoleto e, portanto, removido nas versões mais recentes, portanto, se optar por usar uma versão mais antiga, poderá enfrentar alguns problemas com isso (importar a versão anterior deve ser suficiente).  
 - CUDA:
   - Nas versões mais antigas do pytorch, o lançamento de aplicativos distribuídos era feito através do módulo "torch.distributed.run" (se não me engano), portanto para usar versões mais antigas é necessário adaptar os shell scripts para isso.
+
+### Suporte
+Este trabalho foi parcialmente apoiado pelo Conselho Nacional de Desenvolvimento Científico e Tecnológico (bolsa CNPq nº 158600/2022-3). Além disso nossos experimentos se basearam fortemente no trabalho de Mingle Xu e que sem ele teriamos que ter gastado um tempo significativo preparando scripts para submissão das avaliações dos experimentos.  
 
 # Referências
 Matsoukas, C., Haslum, J. F., Sorkhei, M., Söderberg, M., & Smith, K. (2022). What makes transfer learning work for medical images: Feature reuse & other factors. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (pp. 9225-9234).
