@@ -5,7 +5,7 @@
 - [Project description](#about)
 - [Goal](#goal)
 - [Experiments](#experiments)
-- [Reusing the scripts](#instructions-for-reutilization)
+- [Plant classification model reutilization](#instructions-for-reutilization)
 - [References](#referências)
 - [🇧🇷 Ver em Português 🇧🇷](https://github.com/rtcalumby/plantTL2023/blob/main/README.md#-planttl2023-)
 
@@ -99,7 +99,7 @@ This work was partially supported by the National Council for Scientific and Tec
 - [Descrição do projeto](#sobre)
 - [Objetivos](#objetivos)
 - [Experimentos](#experimentos)
-- [Reutilizando os scripts](#instruções-para-reutilização)
+- [Reutilizando o modelo de classificação de plantas](#instruções-para-reutilização)
 - [Referências](#referências)
 
 # Sobre
